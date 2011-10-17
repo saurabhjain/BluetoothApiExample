@@ -47,8 +47,7 @@ public class BluetoothActivity extends Activity {
 		}
 
 		// Starting the device discovery
-		out.append("\n \n Searching for bluetooth devices nearby "
-				+ adapter.getName() + "...");
+		out.append("\n \n Searching for bluetooth devices nearby " + adapter.getName() + "...");
 		adapter.startDiscovery();
 		out.append("\n \n Finished searching for bluetooth devices...");
 
